@@ -1,0 +1,113 @@
+/* General App Styles */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+input, select, button {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+input::placeholder {
+  color: #aaaaaa;
+}
+
+input[type="number"], select {
+  width: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+/* Container and Panels */
+div {
+  background-color: #1e1e1e;
+  border-radius: 5px;
+}
+
+div[style*="border"] {
+  border-color: #333333;
+}
+
+/* Timestamps List */
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: #252525;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: #333333;
+}
+
+/* Buttons */
+button {
+  background-color: #4285f4;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+button:active {
+  background-color: #254aa5;
+}
+
+/* Video Player */
+div[style*="position: relative"] {
+  border: 1px solid #333333;
+  background-color: #121212;
+}
+
+/* Resize Handle */
+div[style*="cursor: se-resize"] {
+  background-color: #4285f4;
+  border-radius: 50%;
+}
+
+div[style*="cursor: se-resize"]:hover {
+  background-color: #3367d6;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
